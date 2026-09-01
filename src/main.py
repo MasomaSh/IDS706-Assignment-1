@@ -1,5 +1,7 @@
 def welcome_message(name):
-    name=name.strip()
+    name=name.strip() # Remove extra whitespace from the input
+
+    # If nothing was entered, use a default name
     if not name:
         name='Guest_student'
 
