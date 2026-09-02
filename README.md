@@ -25,7 +25,7 @@ This project is the first project for Data Engineering (IDS706) class. A simple 
 ## .dockerignore
 Keeps local environment files and caches out of the Docker build context.
 ## GitHub Actions / CI-CD
-Every push to 'main' triggers the workflow, which:
+Every push to 'main' runs the workflow, which:
 - Installs dependencies
 - Runs the test suite
 - Builds the Docker image
