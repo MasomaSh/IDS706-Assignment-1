@@ -6,7 +6,7 @@ This project is the first project for Data Engineering (IDS706) class. A simple 
 ## Setup 
 - Clone the repo
 - Create and activate a virtual environment with 'python -m venv .venv' and 'source .venv/bin/activate'
-- - Install dependencies with 'make install'
+- Install dependencies with 'make install'
 ## Makefile
 - 'make install' to install dependencies
 - 'make run' to run the app
